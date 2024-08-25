@@ -17,7 +17,7 @@ inputs:
     default: ""
 runs:
   using: "node16"
-  main: "testfile.py"
+  main: "testfile.js"
 branding:
   icon: "aperture"
   color: "green"
