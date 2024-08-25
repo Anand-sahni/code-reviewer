@@ -20,6 +20,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_API_MODEL: "gpt-4" # Optional: defaults to "gpt-4"
           exclude: "**/*.json, **/*.md" # Optional: exclude patterns separated by commas
+      - name: Interact with AI
         run: |
           curl -X POST https://api.openai.com/v1/completions \
             -H "Authorization: Bearer ${{ secrets.OPENAI_API_KEY }}" \
