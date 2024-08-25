@@ -3,6 +3,7 @@ let num1 = 0;
 let num2 = 1;
 let next_number = num2;
 let count = 1;
+let counter = 2;
 while (count <= n) {
   console.log(next_number, " ");
   count++;
