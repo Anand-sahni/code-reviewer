@@ -4,6 +4,7 @@ num2 = 1
 next_number = num2 
 count = 1
 # this is raw
+# this is raw
 while count <= n:
 	print(next_number, end=" ")
 	count += 1
